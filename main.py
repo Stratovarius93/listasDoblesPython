@@ -1,0 +1,18 @@
+from nodo import Nodo
+from lista import Lista
+listas = Lista()
+listas.insertarPrincipio(9)
+listas.insertarPrincipio(57)
+listas.insertarPrincipio(6)
+listas.insertarPrincipio(80)
+listas.insertarPrincipio(20)
+# listas.listarPrincipio()
+# listas.listarFinal()
+# listas.borrarPrimero()
+# listas.borrarUltimo()
+# listas.borrarPosicion(3)
+# print()
+listas.listarPrincipio()
+# print(listas.buscar(57))
+listas.insertarPosicion(33,6,57)
+listas.listarPrincipio()
